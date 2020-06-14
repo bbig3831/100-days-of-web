@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up for FoxRem</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="extras/form.css">
+    <link rel="stylesheet" href="extras/site.css">
+</head>
+<body>
+<h1>Sign up for FoxRem</h1>
+
+<form action="" method="post">
+    <input type="text" name="full_name" required placeholder=" Full name">
+    <input type="email" name="email" required placeholder=" E-mail">
+    <input type="number" min="6" name="age" required placeholder=" Age">
+    <input type="password" name="password" minlength="6" required placeholder=" Password">
+    <select name="heard_of" required id="">
+        <option value="">Please select an option</option>
+        <option value="podcast">Podcast</option>
+        <option value="search">Search engine</option>
+        <option value="friend">Friend's recommendation</option>
+    </select>
+    <button type="submit">Register</button>
+</form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="extras/form_hook.js"></script>
+</body>
+</html>
