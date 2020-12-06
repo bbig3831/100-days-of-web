@@ -1,0 +1,5 @@
+django
+django-registration
+djangorestframework
+requests
+django-rest-swagger
